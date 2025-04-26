@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechConnect</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+     
+
+</style>
+
+</head>
+<body>
+  <header>
+    <!-- Inicio de Encabezado -->
+     <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+
+      <div class="container text-light">
+        <div class="row w-100 d-flex justify-content-between">
+          <div class="col-12 col-md-6 d-flex justify-content-start align-items-center">
+            
+            <i class="bi bi-envelope "></i>
+            <a class="navbar-sm-brand text-light text-decoration-none mx-2" href="mailto:info@productos.com">info@productos.com</a>
+           
+
+            
+            <i class="  bi bi-telephone-forward "> </i>
+            <a class="navbar-sm-brand text-light text-decoration-none mx-2" href="tel:300 1234567">300 1234567</a>
+            
+          </div>
+
+          <!-- Iconos de redes sociales -->
+          <div class="col-12 col-md-6  d-flex justify-content-end align-items-center">
+            
+            <a class="navbar-sm-brand text-light text-decoration-none mx-2" href="https://es-la.facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a>
+            
+            <a class="navbar-sm-brand text-light text-decoration-none mx-2" href="https://x.com/" target="_blank"><i class="bi bi-twitter"></i></a>
+            
+            <a class="navbar-sm-brand text-light text-decoration-none mx-2" href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram"></i></a>
+          </div>
+          <!-- iconos -->
+
+        </div>
+
+
+      </div>
+     </nav>
+     <!-- Fin de ecabezado -->
+            <!--Inicio de navegacion Nav  -->
+      <nav class="navbar navbar-expand-lg text-dark" style="background-color: rgba(255, 255, 255, 0.8);">
+          <div class="container-fluid">
+              <img src="assets/img/lok1.png" alt="TechConnect Logo" width="50" height="50" class="d-inline-block align-text-top">
+              
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                </li>
+                
+                <li class="nav-item">
+                  <a class="nav-link" href="./productos.html">
+                    Productos
+                  </a>
+                  
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contacto</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="acerca.html">Acerca de</a>
+
+                </li>
+              </ul>
+                              
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Buscar Producto" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Buscar</button>
+              </form>
+              <div class="action-icons">
+                  <a href="#" class="action-icon">
+                      <i class="far fa-user"></i> <!-- Botón de perfil -->
+                  </a>
+                  <a href="#" class="action-icon">
+                      <i class="far fa-heart"></i> <!-- Botón de favoritos -->
+                      <span class="badge badge-pill badge-custom">5</span>
+                  </a>
+                  <a href="./carrito.html" class="action-icon">
+                      <i class="fas fa-shopping-cart"></i> <!-- Botón de carrito -->
+                      <span class="badge-custom">10</span>
+                  </a>
+              </div>
+              
+            </div>
+          </div>
+          <!-- Fin de Navegacion Nav -->
+        </nav>
+      <!-- Fin de Encabezado -->
+  </header>
+
+ <!-- Inicio de carrusel -->
+ <div class="row d-flex justify-content-center mb-5">
+  <div class="col-md-12">
+    <!-- data-bs-ride="carousel" -->
+    <div id="carouselExampleDark" class="carousel carousel-dark slide " >
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active d-item">
+          <img src="assets/img/banner1.png" class="d-block w-100 d-img" alt="camara de vigilancia">
+          <div class="carousel-caption text-fluid align-items-center">
+            
+            <!-- <p class="banner-subtitle">Descubre los últimos gadgets y tecnología innovadora</p> -->
+            <a href="#dron" class="cta-button">Explorar ahora</a>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="assets/img/banner2.jpg" class="d-block" alt="banner">
+
+          <div class="carousel-caption text-fluid align-items-center">
+            
+            <!-- <p class="banner-subtitle">Descubre los últimos gadgets y tecnología innovadora</p> -->
+            <a href="#dron" class="cta-button">Explorar ahora</a>
+          </div>
+
+        </div>
+
+        <div class="carousel-item">
+          <img src="assets/img/banner3.png" class="d-block w-100 d-img " alt="Dron con cámara">
+          <div class="carousel-caption text-fluid align-items-center">
+            
+            <!-- <p class="banner-subtitle">Descubre los últimos gadgets y tecnología innovadora</p> -->
+            <a href="#dron" class="cta-button">Explorar ahora</a>
+          </div>
+         
+        </div>
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+   
+
+  </div>
+ </div>
+  <!-- Fin de carrusel -->
+  
+
+  <!-- Inicio de seccion de categorias -->
+  <section class="product-section">
+      <div class="product-section container">
+        <div class="row text-center pt-3 mb-5">
+          <div class="col-lg-6 m-auto">
+            <h2 class="h2 ">Explora la Tecnología que Conecta tu Mundo</h2>
+            <p>
+              Descubre nuestra amplia selección de productos tecnológicos y gadgets innovadores diseñados para potenciar tu día a día.
+            </p>
+          </div>
+      
+        </div>
+        <div class="row">
+          <div class="product col-12 col-md-4 text-center">
+              <a href="carrito.html"><img src="assets/img/drom.png" alt="Hub-C" class="img-fluid"></a>
+              
+              <h3 class="h3 text-center mt-3 mb-3" id="dron">Dron con cámara 1080P</h3>
+              <p class="text-center"> Drone plegable para principiantes, mini dron con retención de altitud.</p>
+              <p class="text-center">
+              <a class="btn btn-success" href="carrito.html"><i class="fas fa-cart-plus"></i>
+                Agregar al Carrito</a>
+              </p>
+
+          </div>
+          <div class="product col-12 col-md-4 text-center">
+            <a href="carritoaur.html"><img src="assets/img/22.avif" alt="Auriculares" class="img-fluid"></a>
+            <h3 class="h3 text-center mt-3 mb-3">Auriculares</h3>
+            <p class="text-center">Sonido envolvente y comodidad durante todo el día. Perfectos para música y llamadas.</p>
+            <p class="text-center">
+              <a class="btn btn-success" href="carritoaur.html"><i class="fas fa-cart-plus"></i>
+                Agregar al Carrito</a>
+            </p>
+
+          </div>
+          <div class="product col-12 col-md-4 text-center">
+            <a href="carritodisc.html"><img src="assets/img/disco.jpg" alt="Disco" class="img-fluid"></a>
+            <h3 class="h3 text-center mt-3 mb-3">Disco Portable</h3>
+            <p class="text-center">Conectividad y velocidad en un solo dispositivo. Ideal para tus necesidades tecnológicas.</p>
+            <p class="text-center">
+              <a class="btn btn-success" href="carritodisc.html"><i class="fas fa-cart-plus"></i>
+              Agregar al Carrito</a>
+            </p>
+
+          </div>
+        </div>
+    </div>
+
+  </section>
+<!-- fin de categoria -->
+ 
+
+<!-- Inicion seccion Productos destacados -->
+<section class="bg-light">
+  <div class="product-section container">
+    <div class="row text-center pt-3">
+      <div class="col-lg-6 m-auto">
+        <h3 class="h3 text-center mt-3 mb-3 ">Productos Destacados</h3>
+        <p>
+          Descubre nuestros productos más populares y recomendados. Cada uno ha sido seleccionado por su calidad y rendimiento excepcionales.
+        </p>
+
+      </div>
+
+      
+    </div>
+    <div class="row">
+      <div class="col-12 col-md-4 mb-4">
+        <div class="product-card card h-100 shadow-lg">
+          <a href="####"><img src="assets/img/44.jpg" class="card-img-top" alt="Aspiradora"></a>
+          
+          <div class="card-body">
+            <h5 class="card-title text-center">Ofuzzi-Aspiradora</h5>
+            <p class="card-text text-center">Mantén tu espacio limpio y ordenado con nuestra aspiradora de alta potencia. Ideal para el hogar y la oficina.</p>
+            <p class="card-text text-center"><strong>$550.000</strong></p>
+            <a href="####" class=" text-center btn btn-success"><i class="fas fa-cart-plus"></i>
+              Agregar al Carrito</a>
+            
+          </div>
+
+        </div>
+        
+      </div>
+      <div class="col-12 col-md-4 mb-4">
+        <div class="product-card card h-100 shadow-lg">
+          <a href="####"><img src="assets/img/au1.jpg" class="card-img-top" alt="Microfono"></a>
+          
+          <div class="card-body">
+            <h5 class="card-title text-center">Micrófono-Karaoke</h5>
+            <p class="card-text text-center">Disfruta de tus canciones favoritas con nuestro micrófono de karaoke. Ideal para fiestas y reuniones.</p>
+            <p class="card-text text-center"><strong>$90.000</strong></p>
+            <a href="####" class=" text-center btn btn-success"><i class="fas fa-cart-plus"></i>
+              Agregar al Carrito</a>
+            
+          </div>
+
+        </div>
+        
+      </div>
+      <div class="col-12 col-md-4 mb-4">
+        <div class="product-card card h-100 shadow-lg">
+          <a href="####"><img src="assets/img/cam2.jpg" class="card-img-top" alt="Camara"></a>
+          
+          <div class="card-body">
+            <h5 class="card-title text-center">Cámara de Vigilancia</h5>
+            <p class="card-text text-center">Perfecta para proteger tu hogar o negocio. Ofrece cobertura panorámica de 360° con un diseño motorizado.</p>
+            <p class="card-text text-center"><strong>$150.000</strong></p>
+            <a href="####" class=" text-center btn btn-success"><i class="fas fa-cart-plus"></i>
+              Agregar al Carrito</a>
+            
+          </div>
+
+        </div>
+        
+      </div>
+      <div class="col-12 col-md-4 mb-2">
+        <div class="product-card card h-100 shadow-lg">
+          <a href="####"><img src="assets/img/celu.avif" class="card-img-top" alt="iphon"></a>
+          
+          <div class="card-body">
+            <h5 class="card-title text-center">Iphone 16 pro</h5>
+            <p class="card-text text-center">El iPhone 16 Pro es un dispositivo de última generación que combina un diseño elegante con un rendimiento excepcional.</p>
+            <p class="card-text text-center"><strong>$3500.000</strong></p>
+            <a href="####" class=" text-center btn btn-success"><i class="fas fa-cart-plus"></i>
+              Agregar al Carrito</a>
+            
+          </div>
+
+        </div>
+        
+      </div>
+      <div class="col-12 col-md-4 mb-2">
+        <div class="product-card card h-100 shadow-lg">
+          <a href="####"><img src="assets/img/rel.jpg" class="card-img-top" alt="Reloj"></a>
+          
+          <div class="card-body">
+            <h5 class="card-title text-center">Smartwatch</h5>
+            <p class="card-text text-center">Smartwatch elegante con pantalla táctil a color, monitoreo de salud (pasos, calorías, frecuencia cardíaca), notificaciones sincronizadas. </p>
+            <p class="card-text text-center"><strong>$150.000</strong></p>
+            <a href="####" class=" text-center btn btn-success"><i class="fas fa-cart-plus"></i>
+              Agregar al Carrito</a>
+            
+          </div>
+
+        </div>
+        
+      </div>
+      <div class="col-12 col-md-4 mb-2">
+        <div class="product-card card h-100 shadow-lg">
+          <a href="####"><img src="assets/img/gat2.jpeg" class="card-img-top" alt="Transmisor"></a>
+          
+          <div class="card-body">
+            <h5 class="card-title text-center">Transmisor-Inalámbrico</h5>
+            <p class="card-text text-center">Transmisor FM para automóvil con cargador rápido QC3.0 y PD20W, pantalla LED para frecuencia de radio y controles intuitivos.</p>
+            <p class="card-text text-center"><strong>$800.000</strong></p>
+            <a href="####" class=" text-center btn btn-success"><i class="fas fa-cart-plus"></i>
+              Agregar al Carrito</a>
+            
+          </div>
+
+        </div>
+        
+      </div>
+
+
+    </div>
+    
+  </div>
+</section>
+
+
+        <!-- fin seccion productos destacados -->
+
+    
+
+     <!-- inicio del pie de pagina -->
+     <footer class="text-dark p-3" style="background-color: rgba(255, 255, 255, 0.8);">
+      <div class="row">
+        <div class="col-md-4">
+          <h4 class="h4 text-black border-bottom border-color py-3 mx-2">Gatget Tecnológicos</h4>
+          <ul class="list-unstyled text-black footer-links-list">
+            <li class="text-black me-1 mx-2">
+              <i class="bi bi-geo-alt"></i>
+              Guamal - Magdalena - Colombia
+
+            </li>
+            <li class="text-black me-1 mx-2">
+              <i class="bi bi-telephone-forward "> </i>
+              <a class="text-black text-decoration-none me-1 mx-2" href="tel:300 1234567">300 1234567</a>
+            </li>
+            <li class="text-black me-1 mx-2">
+              <i class="bi bi-envelope"></i>
+              <a class="text-black text-decoration-none me-1 mx-2" href="mailto:info@productos.com">info@productos.com</i></a>
+            </li>
+          </ul>
+
+
+        </div>
+        <div class="col-md-4">
+          <h4 class="h4 text-black border-bottom border-color py-3">Gatget - Artículos</h4>
+          <ul class="list-unstyled text-black footer-links-list">
+            
+             <li><a class="text-black text-decoration-none" href="productos.html">Teléfonos</a></li>
+             <li><a class="text-black text-decoration-none" href="productos.html">Cargadores</a></li>
+             <li><a class="text-black text-decoration-none" href="productos.html">Reloj</a></li>
+             <li><a class="text-black text-decoration-none" href="productos.html">Parlantes</a></li>
+             <li><a class="text-black text-decoration-none" href="productos.html">Auriculares</a></li>
+             <li><a class="text-black text-decoration-none" href="productos.html">Autotune</a></li>
+             <li><a class="text-black text-decoration-none" href="productos.html">Cámaras</a></li>
+
+          </ul>
+          
+        </div>
+        <div class="col-md-4">
+          <h4 class="h4 text-black border-bottom border-color py-3">Mas Información</h4>
+          <ul class="list-unstyled">
+            
+            <li><i class="text-black bi bi-house-fill"></i><a class="text-black text-decoration-none mx-2" href="index.html">Inicio</a></li>
+            <li><i class="text-black bi bi-info-circle-fill"></i><a class="text-black text-decoration-none mx-2" href="acerca.html">Acerca de</a></li>
+            <li><i class="text-black fas fa-shopping-cart"></i><a class="text-black text-decoration-none mx-2" href="###">Carrito</a></li>
+            <li><i class="text-black bi bi-tags"></i><a class="text-black text-decoration-none mx-2" href="productos.html">Productos</a></li>
+            <li><i class="text-black bi bi-person-fill"></i><a class="text-black text-decoration-none mx-2" href="contacto.html">Contactos</a></li>
+            
+          </ul>
+          
+        </div>
+        
+      </div>
+      <div class="row text-black mb-6 align-items-center text-dark p-3" style="background-color: rgba(255, 255, 255, 0.8);">
+        <div class="col-12 w-100 border-top border-color py-3 d-flex justify-content-between align-items-center">
+          
+            
+              <ul class="list-inline m-0 footer-icons d-flex">
+
+              <li class="list-inline-item">
+                <a class="text-black text-decoration-none me-1 mx-2" href="https://es-la.facebook.com/" target="_blank"><i class="bi bi-facebook text-black"></i></a>
+              </li>
+              
+              <li class="list-inline-item">
+                <a class="text-black text-decoration-none me-1 mx-2" href="https://x.com/" target="_blank"><i class="bi bi-twitter-x text-black"></i></a>
+              </li>
+              
+              <li class="list-inline-item">
+                <a class="text-black text-decoration-none me-1 mx-2" href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram text-black"></i></a>
+              </li>
+              </ul>
+           
+              <form class="d-flex" role="form">
+                <input class="form-control me-2" type="email" placeholder="Ingresa tu Correo" aria-label="Correo Electrónico" required>
+                <button class="btn btn-outline-success me-2" type="submit">Suscribirse</button>
+              </form>
+            
+
+        </div>
+      </div>
+      <div class="p-3 shadow-lg" style="background-color: rgba(209, 211, 213, 0.8);">
+        <p class="text-center text-black m-0 mx-2">
+          &copy; 2023 TechConnect. Todos los derechos reservados. | Diseñado por Luisi Castro
+
+        </p>
+
+      </div>
+      <!-- fin del pie de pagina -->
+     </footer>
+   <script>
+
+   </script>
+          
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    
+   <!-- <script src="assets/js/bootstrap.js"></script> -->
+</body>
+</html>

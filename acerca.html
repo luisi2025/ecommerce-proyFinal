@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>acerca de</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+      /* Contenedor de los íconos */
+.action-icons {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    border-color: blue;
+}
+
+/* Estilo general de los íconos */
+.action-icon {
+    position: relative;
+    margin-left: 15px;
+    color: blue;
+    font-size: 1.5rem; /* Ajusta el tamaño del ícono */
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.2); /* Fondo transparente */
+    border: 2px solid white;
+    border-radius: 50%; /* Íconos redondeados */
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+/* Hover para los íconos */
+.action-icon:hover {
+    color: #ff9800; /* Cambia el color al pasar el mouse */
+    transform: scale(1.1); /* Efecto de agrandar */
+}
+
+/* Estilo de las notificaciones */
+.badge-custom {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(50%, -50%);
+    background-color: #ff5722; /* Color del fondo */
+    color: white; /* Color del texto */
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding: 4px 6px;
+    border-radius: 50%; /* Redondeado */
+    border: 2px solid white;
+}
+
+/* --- Estilos para la sección "Acerca de" --- */
+#about { 
+    padding-top: 60px; /* Espaciado arriba */
+    padding-bottom: 60px; /* Espaciado abajo */
+    background-color: var(--bg-light, #f8f9fa); /* Fondo gris muy claro */
+    color: var(--text-color, #333); /* Color de texto principal */
+}
+
+#about h1 {
+    color: var(--primary, #007bff); /* Color principal para los títulos */
+    margin-bottom: 20px; /* Espacio debajo del título */
+    font-weight: 300; /* display-4 ya hace el peso ligero, pero lo aseguramos */
+    text-align: left !important; /* Asegurar que los h1 se alinean a la izquierda */
+}
+
+#about p {
+    margin-bottom: 20px; /* Espacio debajo de los párrafos */
+    line-height: 1.7; /* Mejorar la legibilidad con más espacio entre líneas */
+}
+
+#about ol,
+#about ul {
+    margin-bottom: 20px; /* Espacio debajo de las listas */
+    text-align: left !important; /* Asegurar que las listas se alinean a la izquierda */
+    padding-left: 20px; /* Añadir padding para la indentación de la lista */
+}
+
+#about li {
+    margin-bottom: 8px; /* Espacio entre elementos de la lista */
+    line-height: 1.6; /* Mejorar la legibilidad de los elementos de lista */
+}
+
+#about .col-md-8 {
+    /* text-justify ya está aquí en el HTML */
+    /* margin-bottom: 30px; /* Espacio antes de la imagen en móviles si colapsa */
+}
+
+#about .col-md-4 img {
+    /* Estilo adicional para la imagen */
+    border: 5px solid white; /* Borde blanco alrededor */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    margin-bottom: 20px; /* Espacio debajo de la imagen en móviles */
+}
+</style>
+
+</head>
+<body>
+    <header>
+        <!-- Inicio de Encabezado -->
+        <nav class="navbar navbar-expand-lg bg-dark">
+
+          <div class="container text-light">
+            <div class="row w-100 d-flex justify-content-between">
+              <div class="col-12 col-md-6 d-flex justify-content-start align-items-center">
+                
+                <i class="bi bi-envelope "></i>
+                <a class="navbar-sm-brand text-light text-decoration-none mx-2" href="mailto:info@productos.com">info@productos.com</i></a>
+               
+  
+                
+                <i class="  bi bi-telephone-forward "> </i>
+                <a class="navbar-sm-brand text-light text-decoration-none mx-2" href="tel:300 1234567">300 1234567</a>
+                
+              </div>
+  
+              <!-- Iconos de redes sociales -->
+              <div class="col-12 col-md-6  d-flex justify-content-end align-items-center">
+                
+                <a class="navbar-sm-brand text-light text-decoration-none mx-2" href="https://es-la.facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a>
+                
+                <a class="navbar-sm-brand text-light text-decoration-none mx-2" href="https://x.com/" target="_blank"><i class="bi bi-twitter-x"></i></a>
+                
+                <a class="navbar-sm-brand text-light text-decoration-none mx-2" href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram"></i></a>
+              </div>
+              <!-- iconos -->
+  
+            </div>
+  
+  
+          </div>
+         </nav>
+          <!-- Fin de Encabezado -->
+
+          <!-- Inicio de Navegación -->
+          <!-- Inicio de Navegación -->
+              
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <img src="assets/img/lok1.png" alt="TechConnect Logo" width="50" height="50" class="d-inline-block align-text-top">
+              <a class="navbar-brand" href="index.html"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                  </li>
+                  
+                  <li class="nav-item ">
+                    <a class="nav-link" href="./productos.html">
+                      Productos
+                    </a>
+
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contacto</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="acerca.html">Acerca de</a>
+  
+                  </li>
+                </ul>
+                                
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Buscar Producto" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+                <div class="action-icons">
+                    <a href="#" class="action-icon">
+                        <i class="far fa-user"></i> <!-- Botón de perfil -->
+                    </a>
+                    <a href="#" class="action-icon">
+                        <i class="far fa-heart"></i> <!-- Botón de favoritos -->
+                        <span class="badge badge-pill badge-custom">5</span>
+                    </a>
+                    <a href="./carrito.html" class="action-icon">
+                        <i class="fas fa-shopping-cart"></i> <!-- Botón de carrito -->
+                        <span class="badge badge-pill badge-custom">10</span>
+                    </a>
+                </div>
+                
+              </div>
+            </div>
+          </nav>
+          <!-- fin del encabezado -->
+    </header>
+    <!-- Inicio de acerca de  -->
+     <section id="about">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-8 text-justify">
+            <h1 class="display-4 text-center">Quienes Somos?</h1>
+            <p class="lead">En TechConnect somos una tienda digital dedicada a la comercialización de gadgets tecnológicos, diseñada específicamente para atender las necesidades de comunidades con acceso limitado a tecnología. Nuestro enfoque combina dropshipping y desarrollo web personalizado para ofrecer soluciones innovadoras, accesibles y de alta calidad, respaldadas por un equipo técnico comprometido con la excelencia y el desarrollo comunitario.</p>
+
+            <h1 class="display-4 text-center">Misión</h1>
+
+            <p class="lead">Nuestra misión es empoderar a las comunidades rurales mediante el acceso a tecnología asequible y moderna. A través de nuestra tienda digital TechConnect, promovemos la inclusión digital, generamos oportunidades económicas y reducimos la fuga económica, facilitando una experiencia de compra innovadora y eficiente en productos tecnológicos.</p>
+
+            <H1 class="display-4 text-center">Visión</H1>
+            <p class="lead">Ser el referente líder en el comercio digital y dropshipping de productos tecnológicos en comunidades con acceso limitado a estas herramientas, logrando un impacto sostenible en la economía local y expandiendo nuestra presencia a nivel nacional e internacional, con un modelo escalable y adaptable.</p>
+
+            <h1 class="display-4 text-center">Objetivos</h1>
+            <!-- <p class="lead">1. Facilitar el acceso a tecnología asequible y moderna en comunidades rurales.</p> -->
+             <ol>
+              <li>Generales:
+                <ul>
+                  <li>Proporcionar una plataforma accesible y confiable para la compra de gadgets tecnológicos en comunidades rurales.</li>
+                  <li>Reducir el desempleo juvenil mediante la creación de oportunidades laborales digitales.</li>
+                  
+                </ul>
+              </li>
+              <li>Específicos:
+                <ul>
+                  <li>Implementar una tienda en línea con un catálogo de 30 productos tecnológicos en la primera fase.</li>
+                  <li>Lograr 20 ventas mensuales dentro del primer mes de operación.</li>
+                  <li>Establecer alianzas con al menos dos proveedores locales en los primeros seis meses.</li>
+                  <li>Expandir el alcance del proyecto a municipios vecinos en un plazo de 12 meses.</li>
+                  <li>Garantizar precios justos y envíos rápidos para satisfacer las necesidades de nuestros clientes.</li>
+                </ul>
+              </li>
+              
+             </ol>
+
+          </div>
+          <div class="col-md-4">
+            <img src="assets/img/log1.svg" alt="Imagen de Acerca de" class="img-fluid rounded-circle logo-acerca">
+
+          </div>
+        </div>
+
+      </div>
+
+     </section>
+     <!-- Fin de acerca de -->
+
+
+
+    <!-- inicio del pie de pagina -->
+   <footer class="text-dark p-3" style="background-color: rgba(255, 255, 255, 0.8);">
+    <div class="row">
+      <div class="col-md-4">
+        <h4 class="h4 text-black border-bottom border-color py-3 mx-2">Gatget Tecnológicos</h4>
+        <ul class="list-unstyled text-black footer-links-list">
+          <li class="text-black me-1 mx-2">
+            <i class="bi bi-geo-alt"></i>
+            Guamal - Magdalena - Colombia
+
+          </li>
+          <li class="text-black me-1 mx-2">
+            <i class="bi bi-telephone-forward "> </i>
+            <a class="text-black text-decoration-none me-1 mx-2" href="tel:300 1234567">300 1234567</a>
+          </li>
+          <li class="text-black me-1 mx-2">
+            <i class="bi bi-envelope"></i>
+            <a class="text-black text-decoration-none me-1 mx-2" href="mailto:info@productos.com">info@productos.com</i></a>
+          </li>
+        </ul>
+
+
+      </div>
+      <div class="col-md-4">
+        <h4 class="h4 text-black border-bottom border-color py-3">Gatget - Artículos</h4>
+        <ul class="list-unstyled text-black footer-links-list">
+          
+           <li><a class="text-black text-decoration-none" href="productos.html">Teléfonos</a></li>
+           <li><a class="text-black text-decoration-none" href="productos.html">Cargadores</a></li>
+           <li><a class="text-black text-decoration-none" href="productos.html">Reloj</a></li>
+           <li><a class="text-black text-decoration-none" href="productos.html">Parlantes</a></li>
+           <li><a class="text-black text-decoration-none" href="productos.html">Auriculares</a></li>
+           <li><a class="text-black text-decoration-none" href="productos.html">Autotune</a></li>
+           <li><a class="text-black text-decoration-none" href="productos.html">Cámaras</a></li>
+
+        </ul>
+        
+      </div>
+      <div class="col-md-4">
+        <h4 class="h4 text-black border-bottom border-color py-3">Mas Información</h4>
+        <ul class="list-unstyled">
+          
+          <li><i class="text-black bi bi-house-fill"></i><a class="text-black text-decoration-none mx-2" href="index.html">Inicio</a></li>
+          <li><i class="text-black bi bi-info-circle-fill"></i><a class="text-black text-decoration-none mx-2" href="acerca.html">Acerca de</a></li>
+          <li><i class="text-black fas fa-shopping-cart"></i><a class="text-black text-decoration-none mx-2" href="####">Carrito</a></li>
+          <li><i class="text-black bi bi-tags"></i><a class="text-black text-decoration-none mx-2" href="productos.html">Productos</a></li>
+          <li><i class="text-black bi bi-person-fill"></i><a class="text-black text-decoration-none mx-2" href="contacto.html">Contactos</a></li>
+          
+        </ul>
+        
+      </div>
+      
+    </div>
+    <div class="row text-black mb-6 align-items-center text-dark p-3" style="background-color: rgba(255, 255, 255, 0.8);">
+      <div class="col-12 w-100 border-top border-color py-3 d-flex justify-content-between align-items-center">
+        
+          
+            <ul class="list-inline m-0 footer-icons d-flex">
+
+            <li class="list-inline-item">
+              <a class="text-black text-decoration-none me-1 mx-2" href="https://es-la.facebook.com/" target="_blank"><i class="bi bi-facebook text-black"></i></a>
+            </li>
+            
+            <li class="list-inline-item">
+              <a class="text-black text-decoration-none me-1 mx-2" href="https://x.com/" target="_blank"><i class="bi bi-twitter-x text-black"></i></a>
+            </li>
+            
+            <li class="list-inline-item">
+              <a class="text-black text-decoration-none me-1 mx-2" href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram text-black"></i></a>
+            </li>
+            </ul>
+         
+            <form class="d-flex" role="form">
+              <input class="form-control me-2" type="email" placeholder="Ingresa tu Correo" aria-label="Correo Electrónico" required>
+              <button class="btn btn-outline-success me-2" type="submit">Suscribirse</button>
+            </form>
+          
+
+      </div>
+    </div>
+    <div class="p-3 shadow-lg" style="background-color: rgba(209, 211, 213, 0.8);">
+      <p class="text-center text-black m-0 mx-2">
+        &copy; 2023 TechConnect. Todos los derechos reservados. | Diseñado por Luisi Castro
+
+      </p>
+
+    </div>
+    <!-- fin del pie de pagina -->
+   </footer>
+
+          
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    
+   <!-- <script src="assets/js/bootstrap.js"></script> -->
+</body>
+</html>
