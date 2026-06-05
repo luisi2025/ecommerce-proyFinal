@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | TechConnect</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        body{
+            background:#f5f7fb;
+            font-family: Arial, sans-serif;
+        }
+
+        /* HERO */
+        .hero-contact{
+            background: linear-gradient(135deg,#0d6efd,#0a58ca);
+            color:white;
+            padding:100px 0 70px;
+            text-align:center;
+        }
+
+        .hero-contact h1{
+            font-size:3rem;
+            font-weight:bold;
+        }
+
+        .hero-contact p{
+            font-size:1.1rem;
+            opacity:.9;
+        }
+
+        /* TARJETAS */
+        .contact-card{
+            background:white;
+            border-radius:20px;
+            padding:30px;
+            box-shadow:0 5px 25px rgba(0,0,0,.08);
+            transition:.3s;
+        }
+
+        .contact-card:hover{
+            transform:translateY(-5px);
+        }
+
+        .info-box{
+            display:flex;
+            align-items:center;
+            margin-bottom:25px;
+        }
+
+        .icon-box{
+            width:60px;
+            height:60px;
+            background:#0d6efd;
+            color:white;
+            border-radius:50%;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            font-size:22px;
+            margin-right:15px;
+        }
+
+        .form-control{
+            border-radius:10px;
+            padding:12px;
+        }
+
+        .btn-tech{
+            background:#0d6efd;
+            border:none;
+            color:white;
+            border-radius:10px;
+            padding:12px;
+            width:100%;
+            font-weight:bold;
+            transition:.3s;
+        }
+
+        .btn-tech:hover{
+            background:#084298;
+        }
+
+        .social-icons a{
+            display:inline-flex;
+            align-items:center;
+            justify-content:center;
+            width:45px;
+            height:45px;
+            border-radius:50%;
+            background:#0d6efd;
+            color:white;
+            margin-right:10px;
+            transition:.3s;
+            text-decoration:none;
+        }
+
+        .social-icons a:hover{
+            background:#084298;
+            transform:scale(1.1);
+        }
+
+        footer{
+            background:#212529;
+            color:white;
+            text-align:center;
+            padding:20px;
+            margin-top:60px;
+        }
+
+        iframe{
+            border-radius:20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">
+                <i class="fas fa-laptop-code me-2"></i>TechConnect
+            </a>
+
+            <button class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="productos.html">Productos</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="acerca.html">Nosotros</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contacto.html">
+                            Contacto
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero-contact">
+        <div class="container">
+            <h1>Contáctanos</h1>
+            <p>
+                Estamos aquí para ayudarte. Escríbenos y te responderemos
+                lo antes posible.
+            </p>
+        </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section class="container py-5">
+        <div class="row g-4">
+
+            <!-- INFORMACIÓN -->
+            <div class="col-lg-5">
+                <div class="contact-card h-100">
+
+                    <h3 class="fw-bold mb-4">
+                        Información de contacto
+                    </h3>
+
+                    <div class="info-box">
+                        <div class="icon-box">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h6 class="mb-1">Teléfono</h6>
+                            <p class="mb-0">+57 300 123 4567</p>
+                        </div>
+                    </div>
+
+                    <div class="info-box">
+                        <div class="icon-box">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h6 class="mb-1">Correo</h6>
+                            <p class="mb-0">
+                                soporte@techconnect.com
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="info-box">
+                        <div class="icon-box">
+                            <i class="fas fa-location-dot"></i>
+                        </div>
+                        <div>
+                            <h6 class="mb-1">Ubicación</h6>
+                            <p class="mb-0">
+                                Bogotá, Colombia
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="info-box">
+                        <div class="icon-box">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div>
+                            <h6 class="mb-1">Horario</h6>
+                            <p class="mb-0">
+                                Lun - Sáb: 8:00 AM - 6:00 PM
+                            </p>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <h5 class="fw-bold mb-3">
+                        Síguenos
+                    </h5>
+
+                    <div class="social-icons">
+                        <a href="#">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+
+                        <a href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+
+                        <a href="#">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+
+                        <a href="#">
+                            <i class="fab fa-x-twitter"></i>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- FORMULARIO -->
+            <div class="col-lg-7">
+                <div class="contact-card">
+
+                    <h3 class="fw-bold mb-4">
+                        Envíanos un mensaje
+                    </h3>
+
+                    <form>
+
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label">
+                                    Nombre completo
+                                </label>
+                                <input type="text"
+                                class="form-control"
+                                placeholder="Tu nombre">
+                            </div>
+
+                            <div class="col-md-6 mb-3">
+                                <label class="form-label">
+                                    Correo electrónico
+                                </label>
+                                <input type="email"
+                                class="form-control"
+                                placeholder="correo@email.com">
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">
+                                Asunto
+                            </label>
+                            <input type="text"
+                            class="form-control"
+                            placeholder="Escribe el asunto">
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">
+                                Mensaje
+                            </label>
+                            <textarea
+                            class="form-control"
+                            rows="5"
+                            placeholder="Escribe tu mensaje">
+                            </textarea>
+                        </div>
+
+                        <button type="submit"
+                        class="btn-tech">
+                            <i class="fas fa-paper-plane me-2"></i>
+                            Enviar Mensaje
+                        </button>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MAPA -->
+    <section class="container mb-5">
+        <div class="contact-card p-3">
+            <h3 class="fw-bold mb-3">
+                Nuestra ubicación
+            </h3>
+
+            <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d254508.3947227983!2d-74.2235464!3d4.6486259!2m3!1f0!2f0!3f0!"
+            width="100%"
+            height="350"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy">
+            </iframe>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p class="mb-0">
+            © 2026 TechConnect - Todos los derechos reservados
+        </p>
+    </footer>
+
+    <script src="assets/js/bootstrap.bundle.js"></script>
+
+</body>
+</html>
